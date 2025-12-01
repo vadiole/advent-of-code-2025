@@ -13,7 +13,7 @@ fun main() {
             else -> error("Unknown direction: $direction")
         }
         position += sign * rotations
-        position = position.rem(maxDirections)
+        position = position.mod(maxDirections)
         if (position == 0) {
             zeroHits++
         }
