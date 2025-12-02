@@ -1,3 +1,6 @@
+import java.io.File
+import kotlin.math.absoluteValue
+
 // https://adventofcode.com/2025/day/1#part2
 fun main() {
     val input = File("input.txt").readText()
