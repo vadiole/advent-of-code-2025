@@ -1,3 +1,5 @@
+import java.io.File
+
 // https://adventofcode.com/2025/day/2#part2
 fun main() {
     val input = File("input.txt").readText()
