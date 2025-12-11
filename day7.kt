@@ -12,9 +12,9 @@ fun main() {
     for (row in diagram) {
         for (i in row.indices) {
             if (row[i] == '^' && beamPositions.remove(i)) {
-                beamsTotal++
                 beamPositions.add(i - 1)
                 beamPositions.add(i + 1)
+                beamsTotal++
             }
         }
     }
