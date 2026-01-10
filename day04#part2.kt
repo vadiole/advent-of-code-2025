@@ -1,6 +1,6 @@
 import java.io.File
 
-// https://adventofcode.com/2025/day/4#part2
+// https://adventofcode.com/2025/day/4#part2 oh wrong commit
 fun main() {
     val input = File("input.txt").readText()
     val diagram = input.lines().map { it.toCharArray() }
